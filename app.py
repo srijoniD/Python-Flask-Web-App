@@ -2,7 +2,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/wish")#creating an endpoint/path so that whenever /info is hit in the browser, this function is automatically created
+@app.route("/wish")#creating an endpoint/path so that whenever /wish is hit in the browser, this function is automatically created
 def wish():
     return "<h1>Good Evening Docker!</h1>"
 
